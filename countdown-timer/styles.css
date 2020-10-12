@@ -1,0 +1,31 @@
+body {
+	font-family: sans-serif;
+	background: linear-gradient(rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.5)),
+		url("https://images.pexels.com/photos/2526105/pexels-photo-2526105.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+			no-repeat center;
+	color: #ffffff;
+}
+
+header {
+	font-size: 1.5rem;
+	text-align: center;
+	margin-top: 3em;
+}
+
+section.time {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 2em;
+}
+
+.time-container {
+	text-align: center;
+}
+
+.time-container .number {
+	font-size: 3.5rem;
+}
+
+.time-container .word {
+	margin: 0;
+}
