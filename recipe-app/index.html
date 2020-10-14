@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Recipe App</title>
+</head>
+<body>
+    <header class="main-header">
+        <h1>All Recipes</h1>
+        <form>
+            <input type="text" name="ingredient" id="ingredient" placeholder="Search..."/>
+            <button>
+                <i class="fas fa-search search-button"></i>
+            </button>
+        </form>
+    </header>
+    <section class="favorite-meals">
+        <h3>Favorite Recipes</h3>
+        <main class="favorite-recipes"></main>
+    </section>
+    <main class="recipes-list">
+        <header>A suggestion for you</header>
+        <section class="recipes">
+            <article class="recipe-container">
+                <img src="https://www.themealdb.com/images/media/meals/qtuuys1511387068.jpg" alt="peanut butter cheesecake"/>
+                <div class="details">
+                    <h3>Peanut butter cheesecake</h3>
+                    <i class="fas fa-2x fa-heart favorite-button"></i>
+                </div>
+            </article>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
